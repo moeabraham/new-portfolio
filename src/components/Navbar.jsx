@@ -5,7 +5,8 @@ import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import MS2 from '../assets/MS2.png'
 import MS3 from '../assets/MS3.png'
-import {Link} from 'react-scroll'
+import {Link} from 'react-scroll';
+import Resume from '../assets/Resume.pdf'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -84,26 +85,29 @@ const Navbar = () => {
             <ul>
                 <li className="w-[160px] h-[60px] flex justify-between items center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
                     <a className='flex justify-between items-center w-full text-gray-300'
-                    href="/">
+                    href="https://www.linkedin.com/in/moeabraham
+                    ">
                         Linkedin <FaLinkedin size={30} />
                     </a>
                 </li>
                 <li className="w-[160px] h-[60px] flex justify-between items center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
                     <a className='flex justify-between items-center w-full text-gray-300'
-                    href="/">
+                    href="https://github.com/moeabraham">
                         Github <FaGithub size={30} />
                     </a>
                 </li>
                 <li className="w-[160px] h-[60px] flex justify-between items center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
                     <a className='flex justify-between items-center w-full text-gray-300'
-                    href="/">
+                    href="mailto:moeabraham12@gmail.com">
                         Gmail <HiOutlineMail size={30} />
                     </a>
                 </li>
                 <li className="w-[160px] h-[60px] flex justify-between items center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
                     <a className='flex justify-between items-center w-full text-gray-300'
-                    href="/">
+                    href="https://drive.google.com/file/d/1oOlQPIEs0w-sZieeDkxF7eRhZwouwgYI/view?usp=sharing"
+                    >
                         Resume <BsFillPersonLinesFill size={30} />
+                        {/* resume <Resume /> */}
                     </a>
                 </li>
             </ul>
