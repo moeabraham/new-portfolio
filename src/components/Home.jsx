@@ -6,12 +6,12 @@ import ME from '../assets/me.png';
 
 const Home = () => {
   return (
-    <div name='home' className='w-full h-screen bg-[#0a192f] box-border'>
+    <div name='home' className='w-full  bg-[#0a192f] h-[calc(100vh-80px)]	 '>
         {/* container */}
       
-        <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center 	  h-full'>
-        <div className='photo flex flex-col justify-center mt-6 mb-4 '>
-              <img src={ME} alt="" className="w-60 h-50 border-2 mx-auto rounded-full mt-6 mb-4  hover:bg-pink-600 hover:border-pink-600 border-radius: 50%;" />
+        <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center	  '>
+        <div className='photo flex flex-col justify-center mt-6 mb-4  '>
+              <img src={ME} alt="Profile Picture" className="w-60 h-50 border-2 mx-auto rounded-full mt-6 mb-4  hover:bg-pink-600 hover:border-pink-600 " />
 
         </div>
             <p className='text-pink-600' >Hi, My name is</p>
