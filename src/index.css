@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;600;700;800;900&display=swap');
 
 
@@ -21,6 +22,7 @@
   background-color: cover;
   background-position: center;
   height: 250px;
+  /* width:50%; */
   background-size:contain
 }
 
