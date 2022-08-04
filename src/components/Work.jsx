@@ -118,7 +118,7 @@ const Work = () => {
                     {/* hover effects */}
                     <div className="opacity-0 group-hover:opacity-100">
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                        <h2>Old Gatsby Portfolio</h2>  
+                        <h2>Coming soon</h2>  
                         </span>
                         <div className='pt-8 text-center'>
                             <a href="/">
