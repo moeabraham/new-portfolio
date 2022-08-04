@@ -16,7 +16,7 @@ const Home = () => {
             <p className='text-pink-600 ' >Hi, My name is</p>
             <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6] xs:text-3xl '>Mohamed Soliman</h1>
             <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0] xs:text-3xl'>I am a full stack developer.</h2>
-            <p className='text-[#8892b0] py-4 max-w-[700px]'>I am a full stack developer specializing in buiklding(and occassionally desgining)
+            <p className='text-[#8892b0] py-4 max-w-[700px]'>I am a full stack developer specializing in building(and occassionally desgining)
                  exceptional digital experience. currently,
                   I'm focused on building responsive full-stack web applications</p>
                   <div className='	'>
