@@ -9,7 +9,7 @@ import SRC5 from '../assets/src5.png'
 
 const Work = () => {
   return (
-    <div name="work" className= " w-full xs:flex xs:flex-col  text-gray-300  bg-[#0a192f] box-border  ">
+    <section name="work" className= " w-full xs:flex xs:flex-col  text-gray-300  bg-[#0a192f] box-border  ">
 
         <div className="max-w-[1000px]  mx-auto p-4 flex flex-col justify-center w-full  ">
             <div className="pb-8">
@@ -133,7 +133,7 @@ const Work = () => {
             </div>
 
         </div>
-    </div>
+    </section>
   )
 }
 

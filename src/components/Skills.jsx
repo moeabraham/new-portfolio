@@ -19,7 +19,7 @@ import Mongo from '../assets/mongo.png';
 const Skills = () => {
   return (
     // height options that work so far overflow-y-scroll/calc/
-    <div name="skills" className= " w-full flex flex-col bg-[#0a192f] text-gray-300 box-border   ">
+    <section name="skills" className= " w-full flex flex-col bg-[#0a192f] text-gray-300 box-border   ">
         {/* container */}
         <div className="max-w-[1000px]  mx-auto p-4 flex flex-col justify-center w-full h-full ">
           <div>
@@ -63,7 +63,7 @@ const Skills = () => {
           </div>
         </div>
         
-    </div>
+    </section>
   )
 }
 

@@ -5,7 +5,7 @@ import ME from '../assets/me.png';
 
 const Home = () => {
   return (
-    <div name='home' className=' w-full  bg-[#0a192f] h-[calc(100vh-10%)] flex flex-col 			 '>
+    <section name='home' className=' w-full  bg-[#0a192f] h-[calc(100vh-10%)] flex flex-col 			 '>
         {/* container */}
       
         <div className='  max-w-[1000px]  mx-auto px-8 flex flex-col justify-center	 h-[calc(100vh-10%) 	 '>
@@ -33,7 +33,7 @@ const Home = () => {
                        </button>
                   </div>
         </div>
-    </div>
+    </section>
   )
 }
 
