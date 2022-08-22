@@ -1,8 +1,8 @@
 import React from 'react'
 import realEstate from '../assets/realestate.jpg'
 import SRC1 from '../assets/src1.png'
-import SRC2 from '../assets/src2.png'
-import SRC3 from '../assets/src3.png'
+import NEWSRC from '../assets/newscr.png'
+import NEWSRC2 from '../assets/newscr2.png'
 import SRC4 from '../assets/src4.png'
 import SRC5 from '../assets/src5.png'
 
@@ -39,7 +39,7 @@ const Work = () => {
                     </div>
                 </div>
 
-                <div style={{backgroundImage: `url(${SRC2})`}}
+                <div style={{backgroundImage: `url(${NEWSRC})`}}
                  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-full object-cover'>
                     {/* hover effects */}
                     <div className="opacity-0 group-hover:opacity-100">
@@ -58,7 +58,7 @@ const Work = () => {
                 </div>
 
 
-                <div style={{backgroundImage: `url(${SRC3})`}}
+                <div style={{backgroundImage: `url(${NEWSRC2})`}}
                  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     {/* hover effects */}
                     <div className="opacity-0 group-hover:opacity-100">
