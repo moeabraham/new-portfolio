@@ -5,7 +5,7 @@ import NEWSRC from '../assets/newscr.png'
 import NEWSRC2 from '../assets/newscr2.png'
 import SRC4 from '../assets/src4.png'
 import SRC5 from '../assets/src5.png'
-import STATEMENT from '../assets/statement.png'
+import STATEMENT from '../assets/statementsscr.png'
 
 
 const Work = () => {
@@ -68,7 +68,7 @@ const Work = () => {
 
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="https://reactmusicdata.netlify.app//">
+                            <a href="https://reactmusicdata.netlify.app/">
                                 <button className='text-center rounder-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
                             <a href="https://github.com/moeabraham/Muzika-FE">
