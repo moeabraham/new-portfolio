@@ -68,7 +68,7 @@ const Work = () => {
 
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="https://reactmuzika.netlify.app/">
+                            <a href="https://reactmusicdata.netlify.app//">
                                 <button className='text-center rounder-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
                             <a href="https://github.com/moeabraham/Muzika-FE">
@@ -125,10 +125,10 @@ const Work = () => {
                         <h2>Mern Stack/firebase App</h2>  
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
+                            <a href="https://statementanalysis.netlify.app/">
                                 <button className='text-center rounder-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="/">
+                            <a href="https://github.com/moeabraham/statementsFE">
                             <button className='text-center rounder-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
