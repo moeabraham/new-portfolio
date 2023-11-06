@@ -5,6 +5,8 @@ import NEWSRC from '../assets/newscr.png'
 import NEWSRC2 from '../assets/newscr2.png'
 import SRC4 from '../assets/src4.png'
 import SRC5 from '../assets/src5.png'
+import MOESTORE from "../assets/moestore.png"
+import MOESTORE1 from "../assets/moestore1.png"
 import STATEMENT from '../assets/statementsscr.png'
 
 
@@ -22,6 +24,42 @@ const Work = () => {
             {/* <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4"> */}
             <figure className='xs:flex xs:flex-col sm:grid sm:grid-cols-2 md:grid-cols-3 gap-4 '>
                 {/* grid item */}
+                <div style={{backgroundImage: `url(${MOESTORE})`}}
+                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-full object-cover'>
+                    {/* hover effects */}
+                    <div className="opacity-0 group-hover:opacity-100">
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+                           <h2>Mern Stack With</h2>
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href="https://moeonlinestore.com/">
+                                <button className='text-center rounder-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href="https://github.com/moeabraham/soccerdataapi">
+                            <button className='text-center rounder-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div style={{backgroundImage: `url(${STATEMENT})`}}
+                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    {/* hover effects */}
+                    <div className="opacity-0 group-hover:opacity-100">
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+                        <h2>Mern Stack/firebase App</h2>  
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href="https://statementanalysis.netlify.app/">
+                                <button className='text-center rounder-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href="https://github.com/moeabraham/statementsFE">
+                            <button className='text-center rounder-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
                 <div style={{backgroundImage: `url(${SRC1})`}}
                  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-full object-cover'>
                     {/* hover effects */}
@@ -117,23 +155,7 @@ const Work = () => {
                     </div>
                 </div>
 
-                <div style={{backgroundImage: `url(${STATEMENT})`}}
-                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    {/* hover effects */}
-                    <div className="opacity-0 group-hover:opacity-100">
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                        <h2>Mern Stack/firebase App</h2>  
-                        </span>
-                        <div className='pt-8 text-center'>
-                            <a href="https://statementanalysis.netlify.app/">
-                                <button className='text-center rounder-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="https://github.com/moeabraham/statementsFE">
-                            <button className='text-center rounder-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                
             </figure>
 
         </article>
